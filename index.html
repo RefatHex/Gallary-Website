@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -20,62 +20,14 @@
     <div class="container">
       <div class="filter_buttons">
         <button class="active" data-name="all">Show All</button>
-        <button data-name="card">Gift Cards</button>
+        <button data-name="cards">Gift Cards</button>
         <button data-name="cover">Phone Cover</button>
         <button data-name="frame">Frame</button>
         <button data-name="mirror">Mirror</button>
       </div>
       <!-- Images Cards -->
       <div class="filterable_cards">
-        <div class="card" data-name="card">
-          <img src="images/card-1.jpg" alt="card" />
-          <div class="card_body">
-            <h6 class="card_title">Gift Card</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="cover">
-          <img src="images/cover-1.jpg" alt="cover" />
-          <div class="card_body">
-            <h6 class="card_title">Phone Cover</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="frame">
-          <img src="images/frame-1.jpg" alt="frame" />
-          <div class="card_body">
-            <h6 class="card_title">Photo Frame</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="mirror">
-          <img src="images/mirror-1.jpg" alt="mirror" />
-          <div class="card_body">
-            <h6 class="card_title">Handmade Mirror</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="card">
-          <img src="images/card-2.jpg" alt="card" />
-          <div class="card_body">
-            <h6 class="card_title">Gift Card</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="card">
-          <img src="images/card-3.jpg" alt="card" />
-          <div class="card_body">
-            <h6 class="card_title">Gift Card</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-        <div class="card" data-name="card">
-          <img src="images/card-4.jpg" alt="card" />
-          <div class="card_body">
-            <h6 class="card_title">Gift Card</h6>
-            <p class="card_text">Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
+        <!-- Images will be dynamically added here -->
       </div>
     </div>
   </body>

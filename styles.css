@@ -94,17 +94,23 @@ button.active {
   background-color: #fff;
   padding: 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
 }
-.card.hide {
-  display: none;
-}
+
 .card img {
   width: 100%;
-  height: 210px;
+  height: 100%; /* Ensure the image fills the card container */
   object-fit: cover;
   border-radius: 8px 8px 0 0;
 }
 
+.card.hide {
+  display: none;
+}
+.tall-card {
+  /* Define the styles for the tall card */
+  height: 350px;
+}
 .card_body {
   padding: 15px 20px 20px;
 }
