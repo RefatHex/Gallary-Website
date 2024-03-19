@@ -19,11 +19,13 @@ body {
   padding: 20px;
   margin: 50px auto;
 }
+
 .filter_button {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 button {
   padding: 10px 20px;
   font-size: 18px;
@@ -33,6 +35,7 @@ button {
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
+
 button.active {
   background-color: #b2b377;
   color: white;
@@ -42,6 +45,7 @@ button.active {
   display: flex;
   margin-top: 25px;
 }
+
 .card {
   flex-basis: 300px;
   background-color: #fff;
@@ -53,4 +57,49 @@ button.active {
   height: 210px;
   object-fit: cover;
   border-radius: 8px 8px 0 0;
+}
+
+.et-hero-tabs,
+.et-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  position: relative;
+  background: #b2b377;
+  text-align: center;
+  padding: 0 2em;
+
+
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 1rem;
+    letter-spacing: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .et-hero-tabs,
+  .et-slide {
+    h1 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+  }
+
+  .et-hero-tab {
+    font-size: 1rem;
+  }
 }
